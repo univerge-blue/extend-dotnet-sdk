@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <package>
 	<metadata>
-		<id>UnivergeBlue.NET.SDK.Common</id>
+		<id>UnivergeBlue.SDK.Common</id>
 		<version>$version$</version>
 		<authors>Univerge Blue</authors>
 		<owners>Univerge Blue</owners>

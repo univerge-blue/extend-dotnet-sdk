@@ -35,37 +35,37 @@ The SDK is compiled with .NET Standard 2.0 target. You can use the libraries wit
 
 The SDK consists of several packages, which are available at NuGet.
 
-* UnivergeBlue.NET.SDK.Voice provides a client for [Voice API](https://developer.univerge.blue/api/spec/calling/index.html)
-* UnivergeBlue.NET.SDK.Meetings provides a client for [Meetings API](https://developer.univerge.blue/api/spec/meeting/index.html)
-* UnivergeBlue.NET.SDK.Analytics provides a client for [Analytics API](https://developer.univerge.blue/api/spec/analytics/index.html)
-* UnivergeBlue.NET.SDK.AddressBook provides a client for [Address Book API](https://developer.univerge.blue/api/spec/address_book/index.html)
-* UnivergeBlue.NET.SDK provides all functionality
+* UnivergeBlue.SDK.Voice provides a client for [Voice API](https://developer.univerge.blue/api/spec/calling/index.html)
+* UnivergeBlue.SDK.Meetings provides a client for [Meetings API](https://developer.univerge.blue/api/spec/meeting/index.html)
+* UnivergeBlue.SDK.Analytics provides a client for [Analytics API](https://developer.univerge.blue/api/spec/analytics/index.html)
+* UnivergeBlue.SDK.AddressBook provides a client for [Address Book API](https://developer.univerge.blue/api/spec/address_book/index.html)
+* UnivergeBlue.SDK provides all functionality
 
 To install the C# client library with the full functionality using NuGet, run the following command from the terminal in your projects directory:
 
 ``` cmd
-dotnet add package UnivergeBlue.NET.SDK
+dotnet add package UnivergeBlue.SDK
 ```
 
 Or run the following command in the Package Manager Console:
 
 ``` cmd
-Install-Package UnivergeBlue.NET.SDK
+Install-Package UnivergeBlue.SDK
 ```
 
 If you prefer to run commands directly from source:
 
 * clone this repository `git clone https://github.com/univerge-blue/extend-dotnet-sdk`;
-* add the extend-dotnet-sdk/UnivergeBlue.NET.SDK.csproj file to your .sln file;
-* add the extend-dotnet-sdk/UnivergeBlue.NET.SDK.csproj file as a project dependency of you project e.g.
+* add the extend-dotnet-sdk/UnivergeBlue.SDK.csproj file to your .sln file;
+* add the extend-dotnet-sdk/UnivergeBlue.SDK.csproj file as a project dependency of you project e.g.
 
 ```xml
 <ItemGroup>
-    <ProjectReference Include="../extend-dotnet-sdk/UnivergeBlue.NET.SDK.csproj" />
+    <ProjectReference Include="../extend-dotnet-sdk/UnivergeBlue.SDK.csproj" />
 </ItemGroup>
 ```
 
-Our experienced clients are recommended to install only the required libraries to decrease the size of an application result bundle. For example, if you are going to use the Analytics API, install UnivergeBlue.NET.SDK.Analytics only.
+Our experienced clients are recommended to install only the required libraries to decrease the size of an application result bundle. For example, if you are going to use the Analytics API, install UnivergeBlue.SDK.Analytics only.
 
 ## Supported APIs
 

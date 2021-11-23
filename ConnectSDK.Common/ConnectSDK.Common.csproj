@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <NuspecFile>UnivergeBlue.NET.SDK.Common.nuspec</NuspecFile>
+    <NuspecFile>UnivergeBlue.SDK.Common.nuspec</NuspecFile>
     <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
   <ItemGroup>

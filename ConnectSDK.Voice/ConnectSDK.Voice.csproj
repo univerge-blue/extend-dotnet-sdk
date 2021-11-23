@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <NuspecFile>UnivergeBlue.NET.SDK.Voice.nuspec</NuspecFile>
+    <NuspecFile>UnivergeBlue.SDK.Voice.nuspec</NuspecFile>
     <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
   <ItemGroup>
@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[1.1.6,2.0]"/>
+    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[1.1.6,2.0]" />
   </ItemGroup>
 
 </Project>

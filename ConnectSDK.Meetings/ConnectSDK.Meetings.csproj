@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <NuspecFile>UnivergeBlue.NET.SDK.Meetings.nuspec</NuspecFile>
+    <NuspecFile>UnivergeBlue.SDK.Meetings.nuspec</NuspecFile>
     <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
   <ItemGroup>

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <NuspecFile>UnivergeBlue.NET.SDK.Auth.nuspec</NuspecFile>
+    <NuspecFile>UnivergeBlue.SDK.Auth.nuspec</NuspecFile>
     <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
 
