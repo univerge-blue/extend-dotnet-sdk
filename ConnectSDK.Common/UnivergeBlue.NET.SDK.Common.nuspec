@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+	<metadata>
+		<id>UnivergeBlue.NET.SDK.Common</id>
+		<version>$version$</version>
+		<authors>Univerge Blue</authors>
+		<owners>Univerge Blue</owners>
+		<license type="expression">MIT</license>
+		<projectUrl>https://www.univergeblue.com/cloud-services/extend/api-platform/</projectUrl>
+		<repository type="git" url="https://github.com/univerge-blue/extend-dotnet-sdk"/>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<icon>icon.png</icon>
+		<description>
+			A shared package used by the Univerge Blue API SDK packages.
+			Note: Do not install this package manually, it will be added as a prerequisite by
+			other packages that require it.
+		</description>
+		<copyright>Copyright © NEC Corporation of America 2021. All rights reserved.</copyright>
+		<tags>SDK UnivergeBlue Common</tags>
+		<dependencies>
+		  <group targetFramework=".NETStandard2.0">
+		    <dependency id="System.Text.Json" version="[5.0.2,6.0]" exclude="Build,Analyzers" />
+		  </group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Debug\netstandard2.0\ConnectSDK.Common.dll" target="lib\netstandard2.0\" />
+		<file src="..\icon.png" target=""/>
+	</files>
+</package>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UnivergeBlue.NET.SDK.Meetings</id>
+    <version>$version$</version>
+    <authors>Univerge Blue</authors>
+    <owners>Univerge Blue</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://www.univergeblue.com/cloud-services/extend/api-platform/</projectUrl>
+    <repository type="git" url="https://github.com/univerge-blue/extend-dotnet-sdk"/>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extend API SDK for .NET to host online meetings</description>
+    <copyright>Copyright © NEC Corporation of America 2021. All rights reserved.</copyright>
+    <tags>SDK UnivergeBlue MeetingAPI Meeting</tags>
+    <icon>icon.png</icon>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Text.Json" version="[5.0.2,6.0]" exclude="Build,Analyzers" />
+        <dependency id="UnivergeBlue.NET.SDK.Common" version="[1.0.1,2.0]" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\netstandard2.0\ConnectSDK.Meetings.dll" target="lib/netstandard2.0"/>
+    <file src=".\icon.png" target=""/>
+  </files>
+</package>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>UnivergeBlue.NET.SDK.Auth</id>
+		<version>$version$</version>
+		<authors>Univerge Blue</authors>
+		<owners>Univerge Blue</owners>
+		<license type="expression">MIT</license>
+		<projectUrl>https://www.univergeblue.com/cloud-services/extend/api-platform/</projectUrl>
+		<repository type="git" url="https://github.com/univerge-blue/extend-dotnet-sdk"/>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+			Perform the Extend API OAuth 2.0 - authentication and
+			authorization to access Unite Extend API
+		</description>
+		<copyright>Copyright © NEC Corporation of America 2021. All rights reserved.</copyright>
+		<tags>SDK UnivergeBlue Authentication Authorization</tags>
+		<icon>icon.png</icon>
+		<dependencies>
+			<group targetFramework=".NETStandard2.0">
+				<dependency id="System.Text.Json" version="[5.0.2,6.0.0)" exclude="Build,Analyzers" />
+				<dependency id="System.IdentityModel.Tokens.Jwt" version="[6.13.1,7.0.0)" exclude="Build,Analyzers" />
+				<dependency id="IdentityModel" version="[5.2.0, 6.0.0)" exclude="Build,Analyzers" />
+				<dependency id="UnivergeBlue.NET.SDK.Common" version="[1.0.1,2.0.0)" exclude="Build,Analyzers" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Debug\netstandard2.0\ConnectSDK.Auth.dll" target="lib\netstandard2.0\ConnectSDK.Auth.dll" />
+		<file src="..\icon.png" target=""/>
+	</files>
+</package>
