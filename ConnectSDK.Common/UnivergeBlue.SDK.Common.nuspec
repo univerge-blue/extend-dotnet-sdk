@@ -15,16 +15,16 @@
 			Note: Do not install this package manually, it will be added as a prerequisite by
 			other packages that require it.
 		</description>
-		<copyright>Copyright © NEC Corporation of America 2021. All rights reserved.</copyright>
+		<copyright>Copyright © NEC Corporation of America 2025. All rights reserved.</copyright>
 		<tags>SDK UnivergeBlue Common</tags>
 		<dependencies>
-		  <group targetFramework=".NETStandard2.0">
-		    <dependency id="System.Text.Json" version="[5.0.2,6.0]" exclude="Build,Analyzers" />
-		  </group>
+			<group targetFramework="net8.0">
+				<dependency id="System.Text.Json" version="9.0.4" exclude="Build,Analyzers" />
+			</group>
 		</dependencies>
 	</metadata>
 	<files>
-		<file src="bin\Debug\netstandard2.0\ConnectSDK.Common.dll" target="lib\netstandard2.0\" />
+		<file src="bin\Debug\net8.0\ConnectSDK.Common.dll" target="lib\net8.0\" />
 		<file src="..\icon.png" target=""/>
 	</files>
 </package>

@@ -1,6 +1,6 @@
-# Univerge Blue Extend API for .NET
+# Univerge Blue Extend for .NET
 ​
-You can use this C# client library to integrate Univerge Blue Extend API into your application. To do this, you will need an Univerge Blue account.
+You can use this C# client library to integrate Univerge Blue APIs into your application. To do this, you will need an Univerge Blue account.
 Before you start, we recommend that you visit our [Developer Portal](https://developer.univerge.blue/).
 ​
 ## Table of Contents
